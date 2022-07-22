@@ -1,0 +1,142 @@
+.footer {
+  background-color: #f0edf2;
+}
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .selector-toggler {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .selector-toggler-english {
+      font-size: 18px;
+    }
+  }
+  .footer-logo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    .footer-logo {
+      width: 200px;
+    }
+  }
+  .presentation {
+    padding-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    .link {
+			font-family: Arial,sans-serif;
+      margin: 0 0.6vw;
+      color: rgb(84, 83, 83);
+      cursor: pointer;
+      font-size: 17px;
+      & > a:hover {
+        color: rgb(39, 35, 35);
+      }
+    }
+    .link:not(:last-of-type)::after {
+      content: "";
+      left: 0.4vw;
+      display: inline-block;
+      height: 10px;
+      width: 1.5px;
+      background-color: rgb(129, 127, 127);
+      position: relative;
+      pointer-events: none;
+    }
+  }
+  .app-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 32px;
+    .app-link-title {
+			color:rgb(80, 74, 74);
+      font-size: 18px;
+    }
+    .app-link-content {
+      color: rgb(19, 112, 188);
+      display: flex;
+      align-items: center;
+      & > a {
+        font-size: 18px;
+        cursor: pointer;
+      }
+      & > a:hover {
+        color: rgb(11, 10, 10);
+      }
+    }
+  }
+  .information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 35px;
+    justify-content: center;
+    align-items: center;
+    & > div {
+			font-size: 14px;
+      color: rgb(150, 138, 138);
+    }
+    & > a {
+			font-size: 13px;
+      color: rgb(99, 88, 88);
+      cursor: pointer;
+    }
+    & > a:hover {
+      color: rgb(11, 10, 10);
+    }
+  }
+  .presentation2 {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    .link2 {
+      margin: 0 0.6vw;
+      color: rgb(72, 71, 71);
+      cursor: pointer;
+      font-size: 12px;
+      & > a:hover {
+        color: rgb(11, 10, 10);
+      }
+    }
+    .link2:not(:last-of-type)::after {
+      content: "";
+      left: 0.4vw;
+      display: inline-block;
+      height: 8px;
+      width: 1.3px;
+      background-color: rgb(129, 127, 127);
+      position: relative;
+      pointer-events: none;
+    }
+  }
+  .footer-RP {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    .footer-RP-content {
+      width: 320px;
+    }
+  }
+	.footer-TEEN{
+		padding-top:10px;
+		padding-bottom: 50px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		.footer-TEEN-content{
+			width:65px;
+			padding-right:10px;
+		}
+		.footer-TEEN-words>div{
+			font-size: 12px;
+			color:rgb(87, 80, 80);
+		}
+	}
+}

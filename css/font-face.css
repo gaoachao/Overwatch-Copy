@@ -1,0 +1,29 @@
+@font-face {
+  font-family: big-noodle-too-oblique;
+  src: url("https://static.playoverwatch.com/fonts/big-noodle-too-oblique-1eed6dbdd0.woff");
+}
+
+@font-face {
+  font-family: roboto;
+  src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf");
+}
+
+@font-face {
+  font-family: FuturaNo2D;
+  src: url("https://static.playoverwatch.com/fonts/FuturaNo2D-DemiBold-8635bfcad5.woff");
+}
+
+@font-face {
+  font-family: roboto-italic;
+  src: url("https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xIIzI.woff2");
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2");
+}
+
+@font-face {
+  font-family: config;
+  src: url("https://static.playoverwatch.com/fonts/config-bold-webfont-da9c48c30a.woff2");
+}

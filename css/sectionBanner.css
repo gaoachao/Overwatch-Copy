@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*SectionBanner媒介查询*/
+@media (max-width: 960px) {
+  .SectionBanner {
+    display: none; } }
+
+@media (min-width: 960px) {
+  #SectionBanner-mobile-id {
+    display: none; } }
+
+@media (max-width: 640px) {
+  #SectionBanner-mobile-div1-id {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0; } }
+
+.SectionBanner-mobile {
+  display: flex;
+  flex-direction: column; }
+  .SectionBanner-mobile .SectionBanner-mobile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px; }
+    .SectionBanner-mobile .SectionBanner-mobile-content .SectionBanner-mobile-div1 {
+      margin: 0 auto;
+      width: 95%;
+      font-family: big-noodle-too-oblique;
+      font-size: 55px;
+      color: #4b535d;
+      margin-top: 30px;
+      line-height: 50px;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+      text-align: center; }
+    .SectionBanner-mobile .SectionBanner-mobile-content .SectionBanner-mobile-p2 {
+      font-family: roboto;
+      color: #2e2e2e;
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 1.2em;
+      max-width: 32em;
+      text-align: center; }
+    .SectionBanner-mobile .SectionBanner-mobile-content .SectionBanner-mobile-button {
+      width: 200px;
+      height: 35px;
+      background: #f06414;
+      border-radius: 2px;
+      margin-top: 25px;
+      font-weight: 700;
+      color: white;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+      opacity: 0.9;
+      cursor: pointer; }
+    .SectionBanner-mobile .SectionBanner-mobile-content .SectionBanner-mobile-button:hover {
+      border: #f06414 solid 1px;
+      opacity: 1;
+      margin-top: 24px;
+      transform: translateX(-1px); }
+
+.SectionBanner {
+  overflow: hidden;
+  height: 550px;
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 20px;
+  background: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltaea16f381f193243/62a031b3f3c8d8111c809b3b/WatchpointPack_Desktop.jpg?auto=webp") center; }
+  .SectionBanner .SectionBanner-content {
+    margin-right: 0;
+    margin-left: 50%; }
+  .SectionBanner .SectionBanner-p1 {
+    font-family: big-noodle-too-oblique;
+    font-size: 64px;
+    color: #4b535d;
+    margin-top: 100px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    margin-bottom: 5px; }
+  .SectionBanner .SectionBanner-p2 {
+    font-family: roboto;
+    color: #2e2e2e;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 1.2em;
+    max-width: 32em; }
+  .SectionBanner .SectionBanner-button {
+    width: 200px;
+    height: 45px;
+    background: #f06414;
+    border-radius: 2px;
+    margin-top: 25px;
+    font-weight: 700;
+    color: white;
+    font-size: 21px;
+    line-height: 45px;
+    text-align: center;
+    opacity: 0.9;
+    cursor: pointer; }
+  .SectionBanner .SectionBanner-button:hover {
+    border: #f06414 solid 1px;
+    opacity: 1;
+    margin-top: 24px;
+    transform: translateX(-1px); }

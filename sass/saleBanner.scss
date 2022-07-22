@@ -1,0 +1,166 @@
+/*saleBanner媒介查询*/
+@media (max-width: 960px) {
+  .SaleBanner-wrapper {
+    display: none; 
+	} 
+}
+
+@media (min-width: 960px) {
+  #SaleBanner-mobile-id {
+    display: none; } 
+	}
+
+@media (max-width: 640px) {
+  #SaleBanner-mobile-div1-id {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0; } 
+}
+/*适配*/
+.SaleBanner-mobile{
+	display:flex;
+	flex-direction: column;
+	.SaleBanner-mobile-content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 40px;
+		.SaleBanner-mobile-div1 {
+			margin:0 auto;
+			width:95%;
+			font-family: big-noodle-too-oblique;
+			font-size: 55px;
+			color: #4b535d;
+			margin-top: 30px;
+			line-height: 50px;
+			letter-spacing: 1px;
+			margin-bottom: 5px; 
+			text-align: center;
+		}
+		.SaleBanner-mobile-p2 {
+			font-family: roboto;
+			color: #2e2e2e;
+			font-size: 16px;
+			line-height: 26px;
+			margin-top: 1.2em;
+			max-width: 32em; 
+			text-align: center;
+		}
+		.SaleBanner-mobile-div2{
+			font-family: roboto;
+			color: #2e2e2e;
+			font-size: 16px;
+			line-height: 26px;
+			max-width: 32em; 
+			text-align: center;
+		}
+		.SaleBanner-mobile-button {
+			width: 200px;
+			height: 35px;
+			background: #007dd1;
+			border-radius: 2px;
+			margin-top: 25px;
+			font-weight: 700;
+			color: white;
+			font-size: 18px;
+			line-height: 36px;
+			text-align: center;
+			opacity: 0.9;
+			cursor: pointer; 
+		}
+		.SaleBanner-mobile-button:hover {
+			border: #007dd1 solid 1px;
+			opacity: 1;
+			margin-top: 24px;
+			transform: translateX(-1px); 
+		}
+	}
+}
+
+
+#site section {
+  position: relative; 
+}
+
+.Container--wide {
+  max-width: 1600px; 
+}
+
+.Container {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto; 
+}
+
+.Container:before,
+.container:after,
+.container:before {
+  content: " ";
+  display: table; 
+}
+.SaleBanner {
+  background-color: #f6f6f6;
+  color: #4b535d;
+  .SaleBanner-background--desktop {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .SaleBanner-background {
+    background-position: 50%;
+    background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt6a7af037055d920f/62a031ab472e8f7cff3896c1/FoundersPack_Desktop.jpg?auto=webp");
+  }
+  .SaleBanner-inner {
+		position: relative;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 40%;
+    text-align: right;
+    padding-right: 50%;
+    margin-left: 10%;
+    .SaleBanner-text {
+      .SaleBanner-title--long {
+        font-size: 24px;
+        line-height: 27px;
+      }
+      .SaleBanner-description {
+        font-size: 18px;
+        line-height: 26px;
+      }
+      .SaleBanner-disclaimer {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .SaleBanner-ctaList {
+        margin-top: 20px;
+
+        .SaleBanner-Button {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 1px;
+          padding: 6px 1em;
+          border-radius: 2px;
+          border: 3px solid transparent;
+          font-weight: 700;
+          font-size: 1.2rem;
+          text-align: center;
+          text-transform: uppercase;
+          line-height: 1;
+          letter-spacing: 0.025em;
+          cursor: pointer;
+          transition: all 0.2s;
+          background-color: #2285f7;
+          color: #fefefe;
+        }
+      }
+    }
+  }
+}

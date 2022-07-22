@@ -1,0 +1,18 @@
+/*这段代码解决了 100vw和100vh布局下存在滚动条的问题*/
+html {
+  overflow-y: scroll;
+}
+ 
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+ 
+:root body {
+  position: absolute;
+}
+ 
+body {
+  width: 100vw;
+  overflow: hidden;
+}

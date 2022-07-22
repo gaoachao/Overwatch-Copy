@@ -1,0 +1,156 @@
+.u-align-center {
+  text-align: center; }
+
+.overwatch-footer {
+  background-image: url(https://static.playoverwatch.com/img/pages/buy/buy-bar-bg-3c956a1db2.jpg); }
+
+.section-divider {
+  position: relative; }
+
+.u-max-width-container {
+  width: 100%;
+  max-width: 1250px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.footer-prepurchase {
+  width: 100vw;
+  padding-top: 36px;
+  padding-bottom: 30px; }
+  .footer-prepurchase .footer-buyCta {
+    font-family: FuturaNo2D, Century Gothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    min-width: 200px;
+    border-radius: 2px;
+    background: none;
+    z-index: 1;
+    color: #fff;
+    border: none;
+    padding: 7px 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30ch;
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px 1em;
+    border-radius: 2px;
+    border: 3px solid transparent;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.025em;
+    text-shadow: none;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    transition: all 0.2s;
+    background-color: #e96202;
+    white-space: normal; }
+    @media (min-width: 1280px) {
+      .footer-prepurchase .footer-buyCta {
+        font-size: 21px;
+        line-height: 21px;
+        padding: 12px 20px; } }
+
+.footer-rule {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  border-bottom: 2px solid #cacaca;
+  opacity: 0.1;
+  background: none; }
+
+.SocialModule {
+  padding: 12px 0;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s; }
+  .SocialModule .SocialModule-title {
+    margin-top: 4px;
+    font-family: 'big-noodle-too-oblique';
+    font-style: italic;
+    color: #f6f6f6;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-variant: normal;
+    line-height: normal; }
+    @media only screen and (min-width: 640px) {
+      .SocialModule .SocialModule-title {
+        font-size: 2rem; } }
+  .SocialModule .SocialModule-links {
+    margin: 8px auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0; }
+    .SocialModule .SocialModule-links .SocialModule-linkItem {
+      position: relative;
+      width: 54px;
+      height: 54px;
+      margin: 0 12px; }
+      .SocialModule .SocialModule-links .SocialModule-linkItem .SocialIcon-link {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: block;
+        color: #fff;
+        opacity: 0.5;
+        -webkit-transition: opacity 0.2s;
+        transition: opacity 0.2s; }
+        .SocialModule .SocialModule-links .SocialModule-linkItem .SocialIcon-link > svg,
+        .SocialModule .SocialModule-links .SocialModule-linkItem .SocialIcon-link .SocialIcon-linkImage {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          width: 60%;
+          height: 60%; }
+
+.SocialIcon-link:before {
+  border-color: rgba(255, 255, 255, 0.9);
+  border-width: 2px;
+  width: 75%;
+  height: 75%; }
+
+.SocialIcon-link:after {
+  border-color: rgba(255, 255, 255, 0.8);
+  border-width: 1px;
+  width: 100%;
+  height: 100%; }
+
+.SocialIcon-link:after,
+.SocialIcon-link:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-radius: 50%; }
+
+.SocialModule-linkItem + .SocialModule-linkItem:before {
+  content: "\2022";
+  position: absolute;
+  top: 50%;
+  left: -13px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 0.5;
+  color: #fbf8f8; }

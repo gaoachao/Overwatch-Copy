@@ -1,0 +1,235 @@
+:root {
+  --main-color: rgb(240, 100, 20); }
+
+
+
+.intro2 {
+  width: 100vw;
+  background: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt6a7af037055d920f/62a031ab472e8f7cff3896c1/FoundersPack_Desktop.jpg?auto=webp") center;
+  height: 300px;
+  padding: 40px 50% 40px 20px;
+  box-sizing: border-box; }
+
+.intro2_content {
+  width: 620px;
+  text-align: right;
+  margin-right: 0;
+  margin-left: 80px; }
+
+.intro2_p1 {
+  font-family: FuturaNo2D;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: .8px;
+  font-weight: 700;
+  display: block;
+  color: #4b535d; }
+
+.intro2_p2 {
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 26px; }
+
+.intro2_p3 {
+  font-family: roboto-italic;
+  font-size: 16px;
+  line-height: 24px; }
+
+.button2 {
+  width: 200px;
+  height: 45px;
+  background: #007dd1;
+  border-radius: 2px;
+  margin-top: 25px;
+  font-weight: 700;
+  font-family: FuturaNo2D;
+  color: white;
+  font-size: 21px;
+  line-height: 45px;
+  text-align: center;
+  opacity: 0.9;
+  cursor: pointer;
+  margin-left: 420px; }
+
+.button2:hover {
+  border: #007dd1 solid 1px;
+  opacity: 1;
+  margin-top: 24px;
+  transform: translateX(-1px); }
+
+.intro3 {
+  background: url("https://static.playoverwatch.com/img/pages/home/featured-news/bg-2560-ebf0f79d83.jpg") center no-repeat;
+  background-size: auto 100%;
+  padding: 90px 20px 70px 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative; }
+
+.intro3_head1 {
+  font-family: FuturaNo2D;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  display: inline;
+  line-height: 25px; }
+
+.intro3_view {
+  cursor: pointer; }
+
+.intro3_head2 {
+  font-family: FuturaNo2D;
+  font-size: 21px;
+  color: #f06414;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+  transition: color 0.3s; }
+
+.intro3_svg {
+  width: 1em;
+  height: 1em;
+  fill: #f06414;
+  transform: rotate(270deg) translateX(0.125em);
+  vertical-align: middle;
+  transition: fill 0.3s; }
+
+.intro3_view:hover .intro3_svg {
+  fill: #ffb033; }
+
+.intro3_view:hover .intro3_head2 {
+  color: #ffb033; }
+
+.intro3_content {
+  margin-right: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 30px;
+  width: 50%;
+  height: calc(100% - 70px);
+  padding-right: 20px;
+  padding-bottom: 15px; }
+
+.list {
+  border: lightgray 1px solid;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column-reverse;
+  transition: all 0.3s; }
+
+.list_1 {
+  background: url("https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/hn/HNRF6LBDLQSW1658103774284.jpg") top no-repeat;
+  background-size: 120%; }
+
+.list_2 {
+  transform: translateX(20px);
+  background: url("https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/vg/VGER09HO6GZE1657215359234.png") top no-repeat;
+  background-size: 110%; }
+
+.list_3 {
+  transform: translateY(15px);
+  background: url("https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/2z/2Z56KC2UWWP41657150703928.jpg") top no-repeat;
+  background-size: 110%; }
+
+.list_4 {
+  background: url("https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/tc/TC9DX8Y5684F1656284448344.png") top no-repeat;
+  background-size: 120%;
+  transform: translateX(20px) translateY(15px); }
+
+.list_describe {
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  background: white;
+  border-top: lightgray 1px solid; }
+
+.des_head {
+  font-family: roboto-bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4b535d; }
+
+.des_time {
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 5px;
+  color: #767676; }
+
+.list_1:hover {
+  background-size: 130%; }
+
+.list_2:hover {
+  background-size: 120%; }
+
+.list_3:hover {
+  background-size: 120%; }
+
+.list_4:hover {
+  background-size: 130%; }
+
+.intro3_logo {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  width: 20%;
+  text-align: center; }
+
+.intro3_logo_des {
+  font-family: config;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700; }
+
+.intro3_logo_img {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.button3 {
+  width: 200px;
+  height: 45px;
+  background: black;
+  border-radius: 2px;
+  font-weight: 700;
+  font-family: FuturaNo2D;
+  color: white;
+  font-size: 21px;
+  line-height: 45px;
+  text-align: center;
+  opacity: 0.9;
+  cursor: pointer;
+  margin: 0 auto; }
+
+.button3:hover {
+  border: black solid 1px;
+  margin-top: -1px;
+  opacity: 1; }
+
+.intro4 {
+  background-image: url("https://static.playoverwatch.com/img/scene/candy-5d74c9b93f.jpg");
+  background-size: 100%;
+  padding-top: 72px;
+  padding-bottom: 72px; }
+
+.intro4_head {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box; }
+
+.intro4_head_p1 {
+  font-family: big-noodle-too-oblique;
+  font-size: 64px;
+  line-height: 60px;
+  color: #4b535d;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+.intro4_head_p2 {
+  margin-top: .6em;
+  font-family: roboto;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400; }

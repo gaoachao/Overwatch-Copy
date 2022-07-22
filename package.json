@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-		"compile:sass":"node-sass sass/main.scss css/style.css -w"
+		"compile:nav-sass":"node-sass sass/nav.scss css/nav.css -w",
+		"compile:video-sass":"node-sass sass/video.scss css/video.css -w",
+		"compile:sectionBanner-sass":"node-sass sass/sectionBanner.scss css/sectionBanner.css -w",
+		"compile:saleBanner-sass":"node-sass sass/saleBanner.scss css/saleBanner.css -w",
+		"compile:newsBanner-sass":"node-sass sass/newsBanner.scss css/newsBanner.css -w",
+		"compile:footer-link-sass":"node-sass sass/footer-link.scss css/footer-link.css -w",
+		"compile:footer-sass":"node-sass sass/footer.scss css/footer.css -w"
   },
   "author": "",
   "license": "ISC",

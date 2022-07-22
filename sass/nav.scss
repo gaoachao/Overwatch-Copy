@@ -1,0 +1,28 @@
+.navbar{
+	background-color: rgba(2, 25, 72, .3);
+  height: 40px;
+  padding: 0 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, .15);
+  box-sizing: border-box;
+
+	.iconfont {
+		color: rgba(255, 255, 255, .3);
+	}
+}
+
+.nav-l {
+	h2 {
+  width: 62px;
+  height: 40px;
+  background: url(./image/fwd-icon-sprite.png) no-repeat -18px -75px;
+  text-indent: -999em;
+	}
+
+	li {
+		margin-right: 30px;
+	}
+}
+
+header .nav-l h2:hover {
+  background-position: -18px -119px;
+}
