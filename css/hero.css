@@ -11,6 +11,33 @@
 	}
 }
 
+.hero-title-wrapper {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box; 
+}
+
+.hero-title-p1 {
+  font-family: big-noodle-too-oblique;
+  font-size: 64px;
+  line-height: 60px;
+  color: #4b535d;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px; 
+}
+
+.hero-title-p2 {
+  margin-top: .6em;
+  font-family: roboto;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400; 
+}
+
 
 .hero-name-color>span{
 	color:#333333;
