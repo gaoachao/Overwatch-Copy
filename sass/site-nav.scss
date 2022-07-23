@@ -1,0 +1,135 @@
+//site-nav媒介查询
+@media (max-width: 1400px) {
+  .onsite-nav-wrapper  {
+    display: none;
+  }
+}
+
+.onsite-nav-wrapper {
+  position: relative;
+  .onsite-nav {
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translateX(-50.5%);
+    height: 50px;
+    width: 95%;
+    z-index: 80;
+    font-size: 16px;
+    background-color: #f2f1ed;
+    display: flex;
+    .ow-SiteNavLogo-sigil {
+      height: 100%;
+      width: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #353c42;
+      border: 1px solid #4b535d;
+      box-sizing: border-box;
+      .ow-SiteNavLogo-icon {
+        height: 75%;
+        padding: 0 8px;
+      }
+    }
+    .ow-SiteNavLogo-sigil:hover {
+      cursor: pointer;
+      background-color: #212529;
+    }
+    .ow-SiteNav-section {
+      display: flex;
+      position: relative;
+      .ow-SiteNav-items {
+        display: flex;
+        .ow-SiteNav-item {
+          padding: 0 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 15px;
+          font-weight: 600;
+          color: #4b535d;
+          .ow-SiteNav-link-svg {
+            padding-left: 7px;
+            height: 40%;
+            fill: currentColor;
+          }
+        }
+      }
+      .ow-SiteNav-item:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 1px;
+        height: 65%;
+        background-color: #e5e3dc;
+      }
+    }
+    .ow-SiteNave-section-right {
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .ow-SiteNav-items {
+        display: flex;
+				height: 100%;
+        .ow-SiteNav-item {
+					height: 100%;
+          padding: 0 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 15px;
+          font-weight: 600;
+          color: #4b535d;
+        }
+
+      }
+      .title-seperate {
+        width: 1px;
+        height: 65%;
+        background-color: #e5e3dc;
+      }
+      .ow-SiteNave-section-right-svg {
+        fill: currentColor;
+        pointer-events: none;
+        width: 20px;
+        margin-left: 6px;
+      }
+      .ow-SiteNav-button {
+        height: 100%;
+        width: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f27127;
+        .ow-SiteNav-button-title {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+			.ow-SiteNav-button:hover {
+				cursor: pointer;
+				background-color: #f76009;
+			}
+
+    }
+  }
+}
+
+//所有hover效果
+.ow-SiteNav-items:hover {
+	cursor: pointer;
+}
+
+.has-animation{
+	border-bottom: 3px #f27127 solid;
+}
+
+.has-animation-title{
+	color: #f27127 !important;
+}

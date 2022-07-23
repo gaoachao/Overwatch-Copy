@@ -33,7 +33,7 @@ svg:not(:root) {
       max-width: 900px;
       min-width: 300px;
       fill: #fff;
-      margin-top: -2.3%; }
+      margin-top: 2.3%; }
     .home-header .HeaderSection-inner .HeaderSection-ctaWrapper .HeaderSection-cta,
     .home-header .HeaderSection-inner .HeaderSection-ctaWrapper .HeaderSection-cta--trailer {
       width: auto;
