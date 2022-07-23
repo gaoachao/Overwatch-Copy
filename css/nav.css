@@ -1,5 +1,9 @@
-/* 头部导航栏 开始 */
-
+/* 顶部黑色导航栏 媒介查询*/
+@media(max-width:1400px) {
+	.navbar-PC{
+		display:none;
+	}
+}
 body {
   background-color: #fdfdfd;
   width:100vw;
