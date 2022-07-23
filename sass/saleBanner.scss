@@ -141,14 +141,16 @@
       }
       .SaleBanner-ctaList {
         margin-top: 20px;
-
+				display: flex;
+				justify-content: center;
+				align-items: center;
         .SaleBanner-Button {
           display: inline-block;
           vertical-align: middle;
           margin: 1px;
-          padding: 6px 1em;
+          padding: 7px 1em;
           border-radius: 2px;
-          border: 3px solid transparent;
+          // border: 3px solid transparent;
           font-weight: 700;
           font-size: 1.2rem;
           text-align: center;
@@ -156,10 +158,14 @@
           line-height: 1;
           letter-spacing: 0.025em;
           cursor: pointer;
+					height:25px;
           transition: all 0.2s;
-          background-color: #2285f7;
+          background-color: #1478ec;
           color: #fefefe;
         }
+				.SaleBanner-Button:hover{
+					border:  #1478ec 1px solid;
+				}
       }
     }
   }

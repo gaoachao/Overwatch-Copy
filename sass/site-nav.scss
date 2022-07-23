@@ -41,7 +41,10 @@
       position: relative;
       .ow-SiteNav-items {
         display: flex;
+				flex-direction:row;
+				height: 50px;
         .ow-SiteNav-item {
+					height: 100%;
           padding: 0 18px;
           display: flex;
           justify-content: center;
@@ -59,11 +62,11 @@
       .ow-SiteNav-item:before {
         content: "";
         position: absolute;
-        top: 50%;
+        top: 25px;
         left: 0;
         transform: translateY(-50%);
         width: 1px;
-        height: 65%;
+        height: 33.5px;
         background-color: #e5e3dc;
       }
     }
@@ -132,4 +135,52 @@
 
 .has-animation-title{
 	color: #f27127 !important;
+}
+
+
+//所有下拉效果
+.ow-SiteNav-section-game{
+	display:flex;
+	flex-direction: column;
+	height:150px;
+	.sub-ow-items-game{
+		background-color:#353c42;
+		height:100px;
+		display:none;
+		.sub-items-game-about{
+			height:50px;
+			display: flex;
+			align-items: center;
+			cursor: pointer;
+		}
+		.sub-items-game-maps{
+			height:50px;
+			display: flex;
+			align-items: center;
+			cursor: pointer;
+		}
+		.sub-items-seperate{
+			margin-left:10px;
+			width:80%;
+			height: 1.5px;
+			background-color: rgba(91, 90, 90, 0.776);
+		}
+		.sub-items-title{
+			color:#fff;
+			font-family: Arial, sans-serif;
+			font-weight: 700;
+			font-size: 18px;
+			margin-left:20px;
+		}
+	}
+}
+
+.svg-rorate{
+	transform: rotate(180deg);
+	padding-left: 0px!important;
+	padding-right: 7px;
+}
+
+.items-bottom{
+	border-bottom: 3px #353c42 solid !important;
 }

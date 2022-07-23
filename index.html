@@ -27,6 +27,8 @@
 	<!--JS文件-->
 	<script src="./js/hero.js" type="text/javascript" defer></script>
 	<script src="./js/onSiteNav.js" type="text/javascript" defer></script>
+	<script src="./js/video.js" type="text/javascript" defer></script>
+	<script src="./js/navMobile.js" type="text/javascript" defer></script>
 </head>
 
 <body>
@@ -106,15 +108,24 @@
 						</path>
 					</svg>
 				</div>
-				<div class="ow-SiteNav-section">
+				<div class="ow-SiteNav-section ow-SiteNav-section-game">
 					<div class="ow-SiteNav-items">
 						<div class="ow-SiteNav-item">
 							<div class="ow-SiteNav-link-title">GAME</div>
-							<svg class="ow-SiteNav-link-svg" viewBox="0 0 64 64">
+							<svg class="ow-SiteNav-link-svg on-SiteNav-Game-svg" viewBox="0 0 64 64">
 								<path
 									d="M31.1 43.6L9.6 22.1a1.2 1.2 0 0 1 1.5-1.9l20.3 12.4a1.2 1.2 0 0 0 1.3 0l20.2-12.4a1.2 1.2 0 0 1 1.5 1.9L32.9 43.6a1.2 1.2 0 0 1-1.8 0z">
 								</path>
 							</svg>
+						</div>
+					</div>
+					<div class="sub-ow-items-game">
+						<div class="sub-items-game-about">
+							<div class="sub-items-title">About</div>
+						</div>
+						<div class="sub-items-seperate"></div>
+						<div class="sub-items-game-maps">
+							<div class="sub-items-title">Maps</div>
 						</div>
 					</div>
 				</div>
@@ -213,7 +224,7 @@
 			<section class="home-header">
 				<!-- 视频 -->
 				<div class="video">
-					<video src="./video/header.webm" autoplay muted loop></video>
+					<video id="video" src="./video/header.webm" autoplay muted loop></video>
 				</div>
 
 				<div class="HeaderSection-inner Container Container--wide">
@@ -340,15 +351,15 @@
 					</div>
 				</div>
 
-				<a class="BgVidControl " data-bgcontrol=".HeaderSection-video" href="" tabindex="0">
+				<div class="BgVidControl " >
 					<span class="BgVidControl-inner BgVidControl-inner--pause">
 						<div class="BgVidControl-button video-play-pause-icon">
 							<svg class="BgVidControl-icon" viewBox="0 0 11 13">
 								<path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M10.000,13.000 L8.000,13.000 C7.448,13.000 7.000,
-		  				12.552 7.000,12.000 L7.000,1.000 C7.000,0.448 7.448,0.000 8.000,0.000 L10.000,0.000 C10.552,0.000 11.000,
-		  				0.448 11.000,1.000 L11.000,12.000 C11.000,12.552 10.552,13.000 10.000,13.000 ZM3.000,13.000 L1.000,
-		  				13.000 C0.448,13.000 -0.000,12.552 -0.000,12.000 L-0.000,1.000 C-0.000,0.448 0.448,0.000 1.000,0.000 L3.000,
-		  				0.000 C3.552,0.000 4.000,0.448 4.000,1.000 L4.000,12.000 C4.000,12.552 3.552,13.000 3.000,13.000 Z">
+		  					12.552 7.000,12.000 L7.000,1.000 C7.000,0.448 7.448,0.000 8.000,0.000 L10.000,0.000 C10.552,0.000 11.000,
+		  					0.448 11.000,1.000 L11.000,12.000 C11.000,12.552 10.552,13.000 10.000,13.000 ZM3.000,13.000 L1.000,
+		  					13.000 C0.448,13.000 -0.000,12.552 -0.000,12.000 L-0.000,1.000 C-0.000,0.448 0.448,0.000 1.000,0.000 L3.000,
+		  					0.000 C3.552,0.000 4.000,0.448 4.000,1.000 L4.000,12.000 C4.000,12.552 3.552,13.000 3.000,13.000 Z">
 								</path>
 							</svg>
 						</div>
@@ -362,7 +373,7 @@
 						</div>
 						<span class="BgVidControl-text">play</span>
 					</span>
-				</a>
+				</div>
 			</section>
 			<!-- Section Banner-->
 			<section class="SectionBanner-wrapper">
@@ -413,7 +424,7 @@
 								when you sign in starting June 23.</div>
 							<em class="SaleBanner-disclaimer">(Regional times may vary)</em>
 							<div class="SaleBanner-ctaList">
-								<a class="SaleBanner-Button" href="">Learn More</a>
+								<a class="SaleBanner-Button" target="_blank" href="https://playoverwatch.com/en-us/news/23814216/">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -1053,6 +1064,11 @@
 			</section>
 		</section>
 
+
+		<!--移动端点击显示菜单栏-->
+		<div class="Navbar-siteMenu">
+
+		</div>
 	</div>
 </body>
 

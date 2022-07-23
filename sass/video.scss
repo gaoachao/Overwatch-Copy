@@ -64,10 +64,9 @@ svg:not(:root) {
         position: relative;
         min-width: 200px;
         border-radius: 2px;
-        background: none;
+        background-color: #f06414;
         z-index: 1;
         color: #fff;
-        border: none;
         padding: 7px 15px;
         display: inline-flex;
         justify-content: center;
@@ -91,7 +90,6 @@ svg:not(:root) {
       }
 
       .HeaderSection-cta--trailer {
-        -webkit-font-smoothing: antialiased;
         font-style: normal;
         font-weight: 700;
         letter-spacing: 0.5px;
@@ -100,20 +98,13 @@ svg:not(:root) {
         line-height: 16px;
         position: relative;
         min-width: 200px;
+				background-color: #007dd1;
         border-radius: 2px;
-        background: none;
         z-index: 1;
         color: #fff;
-        border: none;
         padding: 7px 15px;
-        display: -webkit-inline-box;
-        display: -ms-inline-flexbox;
         display: inline-flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
 
         &:before {
@@ -255,11 +246,11 @@ svg:not(:root) {
 }
 
 
-.HeaderSection-WT:hover{
+.HeaderSection-cta--trailer:hover{
 	cursor: pointer;
-	border:1px #007dd1 solid;
+	border:1px #007dd1 solid !important;
 }
 .HeaderSection-BN:hover{
 	cursor: pointer;
-	border:1px #007dd1 solid;
+	border:1px #f06414 solid;
 }
