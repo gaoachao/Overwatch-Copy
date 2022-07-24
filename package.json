@@ -11,7 +11,8 @@
 		"compile:newsBanner-sass":"node-sass sass/newsBanner.scss css/newsBanner.css -w",
 		"compile:footer-link-sass":"node-sass sass/footer-link.scss css/footer-link.css -w",
 		"compile:footer-sass":"node-sass sass/footer.scss css/footer.css -w",
-		"compile:sitenav-sass":"node-sass sass/site-nav.scss css/site-nav.css -w"
+		"compile:sitenav-sass":"node-sass sass/site-nav.scss css/site-nav.css -w",
+		"compile:mobile-aside-sass":"node-sass sass/mobile-aside.scss css/mobile-aside.css -w"
   },
   "author": "",
   "license": "ISC",

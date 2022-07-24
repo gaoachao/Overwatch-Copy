@@ -1,0 +1,111 @@
+.mobile-aside {
+  width: 319px;
+  height: 100vh;
+  margin-right: 40px;
+  box-sizing: border-box;
+  border: 1px rgb(75, 83, 93) solid;
+  overflow-y: hidden;
+  background-color: rgb(47, 53, 67);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  animation-duration: 0.2s;
+  .mobile-close {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 28px;
+    height: 28px;
+    fill: white;
+    cursor: pointer;
+  }
+  .mobile-close:hover {
+    fill: black;
+  }
+  .mobile-aside-logo {
+    padding: 40px 30px 30px 30px;
+    fill: white;
+    border-bottom: rgba(100, 100, 100, 0.5) 1px solid;
+  }
+  .mobile-aside-list {
+    height: 52px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    border-bottom: rgba(100, 100, 100, 0.5) 1px solid;
+    font-family: FuturaNo2D;
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    fill: white;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+  }
+  .mobile-aside-list:hover {
+    color: #f06414;
+    fill: #f06414;
+  }
+  .mobile-aside-svg {
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    margin-top: 3.5px;
+		fill:currentColor;
+  }
+  .mobile-aside-inner {
+    background-color: rgb(33, 37, 41);
+    display: none;
+  }
+  .mobile-aside-inner-text {
+    padding: 8px 50px;
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 1.4;
+    color: white;
+  }
+  .mobile-aside-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    .mobile-aside-button-word-wrapper {
+      height: 55px;
+      width: 220px;
+      background-color: #ce5007;
+      border-radius: 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      .mobile-aside-button-word {
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px;
+      }
+    }
+		.mobile-aside-button-word-wrapper:hover{
+			background-color: #f06414;
+		}
+  }
+}
+
+.navbar-overlap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation-duration: 0.2s;
+}
+
+
+.mobile-aside-svg-rorate{
+	transform: rotate(180deg);
+	// padding-left: 0px!important;
+	// padding-right: 7px;
+}
